@@ -6,6 +6,8 @@ import MicOffIcon from "@material-ui/icons/MicOff";
 import VideocamIcon from "@material-ui/icons/Videocam";
 import VideocamOffIcon from "@material-ui/icons/VideocamOff";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
+import { MdOutlineScreenShare } from "react-icons/md";
+import { createClient } from "agora-rtc-react";
 
 export default function Controls(props) {
   const client = useClient();
@@ -59,10 +61,10 @@ export default function Controls(props) {
         <Button
           variant="contained"
           color="default"
-          // onClick={() => leaveChannel()}
+          // onClick={() => shareScreen()}
         >
-          Share Screen
-          {/* <MdOutlineSmartScreen /> */}
+          {/* Share Screen */}
+          <MdOutlineScreenShare style={{ fontSize: "25px" }} />
         </Button>
       </Grid>
 
