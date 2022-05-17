@@ -14,6 +14,7 @@ function App() {
           variant="contained"
           color="primary"
           onClick={() => setInCall(true)}
+          style={{marginTop: "25%", marginLeft: "50%"}}
         >
           Join Call
         </Button>
