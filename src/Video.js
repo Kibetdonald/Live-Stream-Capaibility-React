@@ -12,7 +12,7 @@ export default function Video(props) {
 
   return (
     <Grid container style={{ height: "100%" }}>
-     <Grid container style={{ width: "100%", backgroundColor: "#2b2b2c", height: "2em", marginTop: "1em" }}></Grid>
+   
     
       <Grid item xs={gridSpacing}>
         <AgoraVideoPlayer
